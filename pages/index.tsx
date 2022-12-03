@@ -12,7 +12,7 @@ export async function getStaticProps() {
 export default function Home({ posts }: any) {
   return (
     <section>
-      <h1>Julien Van Beveren's Blog </h1>
+      <h1>Julien Van Beveren{"'"}s Blog </h1>
     </section>
   )
 }
