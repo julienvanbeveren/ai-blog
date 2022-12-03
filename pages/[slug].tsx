@@ -16,11 +16,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }: any) {
   const postData = await getPostBySlug(params.slug)
-  // console.log(postData)
   return {
     props: {
       postData: postData,
     },
+    revalidate: 60,
   }
 }
 
