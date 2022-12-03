@@ -1,6 +1,7 @@
 import '../src/styles/normalize.scss'
 import '../src/styles/index.scss'
 import '../src/styles/blogpost.scss'
+import '../src/styles/home.scss'
 import 'highlight.js/scss/a11y-dark.scss'
 import type { AppProps } from 'next/app'
 
