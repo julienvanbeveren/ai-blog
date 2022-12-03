@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 import Jate from 'jates'
+import { motion } from 'framer-motion'
 
 export default function BlogCard({ data }: any) {
-  // return <div>{JSON.stringify(data, null, 2)}</div>
   console.log(data)
   return (
     <Link href={`/${data.properties.Slug.rich_text[0]?.plain_text}`}>

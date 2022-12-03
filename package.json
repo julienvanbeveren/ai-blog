@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/font": "^13.0.6",
     "@notionhq/client": "^2.2.2",
     "dotenv": "^16.0.3",
+    "framer-motion": "^7.6.18",
     "highlight.js": "^11.7.0",
     "jates": "^0.1.8",
     "next": "12.1.6",

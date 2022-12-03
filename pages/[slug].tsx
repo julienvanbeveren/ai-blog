@@ -2,6 +2,7 @@ import { getPost } from '../src/functions/getPost'
 import { getPostBySlug } from '../src/functions/getPostBySlug'
 import { getPosts } from '../src/functions/getPosts'
 import * as bp from '../src/components/content-types/ContentTypes'
+import { motion } from 'framer-motion'
 
 export async function getStaticPaths() {
   const posts = await getPosts()
