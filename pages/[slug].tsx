@@ -11,7 +11,7 @@ export async function getStaticPaths() {
       params: { slug: post.properties.Slug.rich_text[0]?.plain_text || '' },
     }
   })
-  return { paths: paths, fallback: false }
+  return { paths: paths, fallback: 'blocking' }
 }
 
 export async function getStaticProps({ params }: any) {
