@@ -1,0 +1,164 @@
+/* header */
+.bp-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.bp-header h1 {
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 55px;
+}
+
+.bp-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bp-tag {
+  background-color: rgb(235, 235, 235);
+  padding: 4px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.bp-cover {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bp-tag:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+/* heading */
+.bp-heading {
+  font-weight: 600;
+}
+
+h1.bp-heading {
+  margin: 25px 0 10px 0;
+}
+
+h2.bp-heading {
+  margin: 20px 0 8px 0;
+}
+
+.bp-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.bp-author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bp-author .img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bp-author .bp-name {
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.bp-muted {
+  font-weight: 500;
+  opacity: 0.5;
+  line-height: 20px;
+}
+
+/* paragraph */
+.bp-regular-text {
+  font-size: 17px;
+}
+
+.bp-paragraph {
+  margin: 15px 0;
+}
+
+.bp-paragraph span.bold {
+  font-weight: bold;
+}
+
+.bp-paragraph span.italic {
+  font-style: italic;
+}
+
+.bp-paragraph span.strikethrough {
+  text-decoration: line-through;
+}
+
+.bp-paragraph span.underline {
+  text-decoration: underline;
+}
+
+.bp-paragraph .code {
+  background-color: #dddddde7;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+a.bp-a {
+  text-decoration: none;
+  color: black;
+}
+
+/* code */
+.bp-pre-codeblock {
+  /* display: inline-block; */
+  position: relative;
+  width: auto;
+  border-radius: 8px;
+}
+
+.bp-codeblock {
+  position: relative;
+}
+
+.bp-codeblock-language {
+  width: 100%;
+  color: white;
+  background-color: #282c34e7;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.bp-codeblock-copy {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 15px;
+}
+
+/* image */
+.bp-image {
+  border-radius: 8px;
+  width: 100%;
+}
